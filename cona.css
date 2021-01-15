@@ -1,0 +1,11 @@
+.contactcon
+{
+    margin: 0;
+    padding: 100px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    background: #000;
+    width:100%;
+}

@@ -1,0 +1,129 @@
+.destination{
+    padding: 100px 0;
+    padding-bottom: 170px;
+    position: relative;
+    background: #e1e1db url("./map.jpg") bottom center no-repeat;
+    border-top: 2px solid #cfcfc8;
+    background-size: cover;
+    height: 50%;
+    width: 100%;
+}
+.destination .point1 {
+    left: 180px;
+    top: 40px;
+}
+.destination .destination-point {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 90px;
+    text-align: center;
+}
+.destination .destination-image {
+    pointer-events: none;
+    background: url("./line.jpg") center repeat-x;
+    z-index: 5;
+    position: absolute;
+    width: 350px;
+    text-align: left;
+    right: 35px;
+    top: -53px;
+}
+
+.destination .destination-point a {
+    z-index: 10;
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    line-height: 25px;
+    background: url(/wp-content/themes/arcticwild/assets/img/bg-point-trans.png) repeat;
+   
+    -webkit-border-radius: 100%;
+    vertical-align: top;
+    
+    transform: scale(1);
+  
+    transition: transform .4s,opacity .4s;
+}
+
+a {
+    color: #dc7725;
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    
+    cursor: pointer;
+    
+}
+
+.destination .destination-point a span.outer-dot {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: top;
+    background: #716e64 url(/wp-content/themes/arcticwild/assets/img/bg-destination-dot.png) center no-repeat;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+}
+
+.trans-all {
+    -webkit-transition: all .1s ease-out;
+    transition: all .1s ease-out;
+}
+
+.btn
+{
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #dc7725;
+    margin-left: 60px;
+}
+
+
+
+.but1
+{
+    background-color: #dc7725;
+    margin-left: 300px;
+    
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.but2
+{
+    background-color: #dc7725;
+    margin-left: 300px;
+    border-color: aqua;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.but3
+{
+    background-color: #dc7725;
+    margin-left: 300px;
+    
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.but4
+{
+    background-color: #dc7725;
+    margin-left: 300px;
+    
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+#demo
+{
+    color: #cfcfc8;
+    margin: 20px;
+    padding: 30px;
+}
